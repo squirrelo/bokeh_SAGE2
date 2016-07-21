@@ -1,0 +1,24 @@
+{
+    "main_script": "Bokeh_SAGE2.js",
+    "icon": "bokeh.png",
+    "width": 900,
+    "height": 600,
+    "resize": "free",
+    "dependencies": [
+        "bokeh.min.js",
+        "bokeh-widgets.min.js",
+        "bokeh-compiler.min.js"
+    ],
+    "load": {
+        "server": "localhost:5006",
+        "bokehDocument": "sage",
+        "username": "bokeh",
+        "password": "demo"
+    },
+    "title": "Bokeh_SAGE2",
+    "version": "1.0.0",
+    "description": "SAGE2 application Bokeh_SAGE2",
+    "keywords": [ "sage2", "bokeh", "Bokeh_SAGE2" ],
+    "author": "Joshua Shorenstein <jshorenstein@ucsd.edu>",
+    "license": "SAGE2-Software-License"
+}
